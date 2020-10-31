@@ -44,3 +44,5 @@
 ➡️ [more videos...](https://www.youtube.com/channel/UCwGmvFQAQLIFMfyDKKzafPw)
 
 ---
+
+![Ness's github stats](https://github-readme-stats.vercel.app/api?username=BestNessPT&show_icons=true&theme=dark)
