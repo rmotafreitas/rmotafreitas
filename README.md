@@ -40,9 +40,6 @@
 ### 📺 Latest YouTube Videos
 
 <!-- YOUTUBE:START -->
-
-- [Programing Kaori](https://www.youtube.com/watch?v=4FgnEFZZexY&feature=youtu.be)
-
 <!-- YOUTUBE:END -->
 
 ➡️ [more videos...](https://www.youtube.com/channel/UCwGmvFQAQLIFMfyDKKzafPw)
