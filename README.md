@@ -40,6 +40,9 @@
 ### 📺 Latest YouTube Videos
 
 <!-- YOUTUBE:START -->
+- [Programando a Kaori](https://www.youtube.com/watch?v=4FgnEFZZexY)
+- [Krunker Highlights!](https://www.youtube.com/watch?v=f_1P_Tnib3c)
+- [Mobizen Live Title](https://www.youtube.com/watch?v=6dUtJwRYuiU)
 <!-- YOUTUBE:END -->
 
 ➡️ [more videos...](https://www.youtube.com/channel/UCwGmvFQAQLIFMfyDKKzafPw)
