@@ -1,6 +1,6 @@
 ### Hi there, I'm Ness 👋
 
-## I'm a Student and Developer!!
+## I'm a Student and Developer!
 
 - 🔭 I’m currently working on a [Discord Bot](https://discord.com/api/oauth2/authorize?client_id=730092279326441574&permissions=8&scope=bot)!
 - 🌱 I’m currently learning everything 🤣
