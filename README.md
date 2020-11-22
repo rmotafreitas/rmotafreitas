@@ -41,6 +41,7 @@
 ### 📺 Latest YouTube Videos
 
 <!-- YOUTUBE:START -->
+- [Krunker (Sem voz, Chill)!](https://www.youtube.com/watch?v=GU8T5qk00a4)
 - [Krunker!](https://www.youtube.com/watch?v=8jrrGQXgmgg)
 - [Live de Osu! Pq sim](https://www.youtube.com/watch?v=V-WPGgE9RMs)
 - [Programando a Kaori](https://www.youtube.com/watch?v=4FgnEFZZexY)
