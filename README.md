@@ -26,7 +26,7 @@
 [<img align="left" alt="Visual Studio" width="26px" src="https://static.wikia.nocookie.net/logopedia/images/c/cd/Visual_Studio_2017_Logo.svg" />]()
 [<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />](https://github.com/rmotafreitas/BotKaoriDiscord)
 [<img align="left" alt="NodeJS" width="26px" src="https://walde.co/wp-content/uploads/2016/09/nodejs_logo.png" />]()
-[<img align="left" alt="CSharp" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/C_Sharp_logo.svg" />]()
+[<img align="left" alt="CSharp" width="26px" src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" />]()
 [<img align="left" alt="Visual Basic.net" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/VB.NET_Logo.svg/1200px-VB.NET_Logo.svg.png" />]()
 [<img align="left" alt="MongoDB" width="26px" src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo-256x300.png" />]()
 [<img align="left" alt="Google FireBase" width="26px" src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_502,h_518/https://keytotech.com/wp-content/uploads/2019/05/firebase.png" />]()
