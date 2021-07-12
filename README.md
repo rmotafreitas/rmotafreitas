@@ -41,8 +41,6 @@
 ### 📺 Latest YouTube Videos
 
 <!-- YOUTUBE:START -->
-- [A tentar fazer uma aplicação de contatos c#, com base de dados](https://www.youtube.com/watch?v=I-2osGoqqYQ)
-- [Stream em direto de Ness Js](https://www.youtube.com/watch?v=3dQdKqOHxeI)
 - [Tutorial como criar um bot para o discord com JavaScript](https://www.youtube.com/watch?v=xR1xa5OzFYo)
 - [Krunker Highlights!](https://www.youtube.com/watch?v=f_1P_Tnib3c)
 <!-- YOUTUBE:END -->
