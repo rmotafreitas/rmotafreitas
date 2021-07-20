@@ -41,6 +41,7 @@
 ### 📺 Latest YouTube Videos
 
 <!-- YOUTUBE:START -->
+- [Campo Minado Avançado](https://www.youtube.com/watch?v=xUjkrTDvdAY)
 - [Campo Minado Avançado](https://www.youtube.com/watch?v=8_B8-2QYnq8)
 - [Tutorial como criar um bot para o discord com JavaScript](https://www.youtube.com/watch?v=xR1xa5OzFYo)
 - [Krunker Highlights!](https://www.youtube.com/watch?v=f_1P_Tnib3c)
