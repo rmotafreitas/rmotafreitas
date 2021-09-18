@@ -41,10 +41,8 @@
 ### 📺 Latest YouTube Videos
 
 <!-- YOUTUBE:START -->
+- [Tutorial Bot Discord v13 #1](https://www.youtube.com/watch?v=bbYpBe1MR6c)
 - [Pokemon Fire Red até zerar? (Chill)](https://www.youtube.com/watch?v=WaFsmi5KA9c)
-- [Campo Minado Avançado](https://www.youtube.com/watch?v=xUjkrTDvdAY)
-- [Campo Minado Avançado](https://www.youtube.com/watch?v=8_B8-2QYnq8)
-- [Tutorial como criar um bot para o discord com JavaScript](https://www.youtube.com/watch?v=xR1xa5OzFYo)
 - [Krunker Highlights!](https://www.youtube.com/watch?v=f_1P_Tnib3c)
 <!-- YOUTUBE:END -->
 
