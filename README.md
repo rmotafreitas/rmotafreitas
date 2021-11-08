@@ -44,7 +44,7 @@
 - [Discord Bot#3 - Comando de Waifu](https://www.youtube.com/watch?v=oX1t-nX6y9o)
 - [Discord.js#2 Comando de Triggered](https://www.youtube.com/watch?v=7152O0BKzuM)
 - [Tutorial Bot Discord v13 #1](https://www.youtube.com/watch?v=bbYpBe1MR6c)
-- [Pokemon Fire Red até zerar? (Chill)](https://www.youtube.com/watch?v=WaFsmi5KA9c)
+- [Pokemon Fire Red até zerar? &lpar;Chill&rpar;](https://www.youtube.com/watch?v=WaFsmi5KA9c)
 - [Krunker Highlights!](https://www.youtube.com/watch?v=f_1P_Tnib3c)
 <!-- YOUTUBE:END -->
 
