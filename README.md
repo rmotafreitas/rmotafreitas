@@ -22,7 +22,7 @@
 
 ### Languages and Tools:
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,cs,deno,bots,dotnet,figma,firebase,github,heroku,jquery,mysql,neovim,nodejs,php,prisma,ts,react)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,cs,deno,bots,dotnet,figma,firebase,github,heroku,jquery,mysql,neovim,nodejs,php,prisma,ts,react,mongodb)](https://skillicons.dev)
 
 <br/>    
 <br/>
