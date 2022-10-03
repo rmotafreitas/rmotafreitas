@@ -33,7 +33,7 @@
 <br/>
 
 ## Situations:
-[![Situations](https://skillicons.dev/icons?i=bots,dotnet,vite)](#)
+[![Situations](https://skillicons.dev/icons?i=bots,dotnet,vite,linux)](#)
 <br/>
 
 ---
