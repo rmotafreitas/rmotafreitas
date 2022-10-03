@@ -5,8 +5,8 @@
 - 🔭 I’m currently working on:
   - An online Pet-Shop
   - Stduie Mobile App
-  - [Discord Bot](https://discord.com/api/oauth2/authorize?client_id=730092279326441574&permissions=8&scope=bot)
   - Studio Ghibli Mobile App
+  - [Discord Bot](https://discord.com/api/oauth2/authorize?client_id=730092279326441574&permissions=8&scope=bot)
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to collaborate with other content creators
 - 🥅 2022 Goals: Contribute more to Open Source projects
