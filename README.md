@@ -1,8 +1,12 @@
-### Hi there, I'm Ricardo 👋
-#### My nickname is Ness.js
+### Hi there, I'm Ricardo Freitas👋
+#### My nickname is Ness.js || @rmotafreitas
 ## I'm a Student and Developer!
 
-- 🔭 I’m currently working on a [Discord Bot](https://discord.com/api/oauth2/authorize?client_id=730092279326441574&permissions=8&scope=bot), and a mobile app!
+- 🔭 I’m currently working on:
+  - An online Pet-Shop
+  - Stduie Mobile App
+  - [Discord Bot](https://discord.com/api/oauth2/authorize?client_id=730092279326441574&permissions=8&scope=bot)
+  - Studio Ghibli Mobile App
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to collaborate with other content creators
 - 🥅 2022 Goals: Contribute more to Open Source projects
@@ -13,18 +17,11 @@
 [![Spotify](https://novatorem-theta-green.vercel.app/api/spotify)](https://open.spotify.com/user/xiwv4n1yhmxitpz0arg4a95un)
 
 ### Connect with me:
-
-[<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />](https://www.youtube.com/channel/UCwGmvFQAQLIFMfyDKKzafPw)
-[<img align="left" alt="codeSTACKr | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />](https://twitter.com/Ness51560833)
-[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" />](https://top.gg/user/513113161126248469)
-
+[![Linkedin](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/ricardo-mota-freitas-0b620124b/)&nbsp;&nbsp;[![Twitter](https://skillicons.dev/icons?i=twitter)](https://twitter.com/rmotafreitas)&nbsp;&nbsp;[![Discord](https://skillicons.dev/icons?i=discord)](https://discord.gg/EQUrP46utb)
 <br />
 
 ### Languages and Tools:
-
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,cs,deno,bots,dotnet,figma,firebase,github,heroku,jquery,mysql,neovim,nodejs,php,prisma,ts,react,mongodb)](https://skillicons.dev)
-
-<br/>    
 <br/>
 
 ---
