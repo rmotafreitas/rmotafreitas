@@ -20,8 +20,20 @@
 [![Linkedin](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/ricardo-mota-freitas-0b620124b/)&nbsp;&nbsp;[![Twitter](https://skillicons.dev/icons?i=twitter)](https://twitter.com/rmotafreitas)&nbsp;&nbsp;[![Discord](https://skillicons.dev/icons?i=discord)](https://discord.gg/EQUrP46utb)
 <br />
 
-### Languages and Tools:
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,cs,deno,bots,dotnet,figma,firebase,github,heroku,jquery,mysql,neovim,nodejs,php,prisma,ts,react,mongodb)](https://skillicons.dev)
+### Programming Languages and FrameWorks:
+[![Programming Languages](https://skillicons.dev/icons?i=html,css,cs,php,js,ts,jquery,nodejs,express,react,svelte,tailwind)](#)
+<br/>
+
+## Software and Tools:
+[![Software and Tools](https://skillicons.dev/icons?i=deno,figma,github,heroku,neovim,vscode,visualstudio,unity,ps)](#)
+<br/>
+
+## Database Management:
+[![Database Management](https://skillicons.dev/icons?i=firebase,mysql,prisma,mongodb)](#)
+<br/>
+
+## Situations:
+[![Situations](https://skillicons.dev/icons?i=bots,dotnet,vite)](#)
 <br/>
 
 ---
