@@ -25,7 +25,7 @@
 <br/>
 
 ## Software and Tools:
-[![Software and Tools](https://skillicons.dev/icons?i=deno,figma,github,heroku,neovim,vscode,visualstudio,unity,ps)](#)
+[![Software and Tools](https://skillicons.dev/icons?i=git,deno,figma,github,heroku,neovim,vscode,visualstudio,powershell,unity,ps)](#)
 <br/>
 
 ## Database Management:
