@@ -2,14 +2,9 @@
 #### My nickname is Ness.js || @rmotafreitas
 ## I'm a Student and Developer!
 
-- 🔭 I’m currently working on:
-  - An online Pet-Shop
-  - Study Mobile App
-  - Studio Ghibli Mobile App
-  - [Discord Bot](https://discord.com/api/oauth2/authorize?client_id=730092279326441574&permissions=8&scope=bot)
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to collaborate with other content creators
-- 🥅 2022 Goals: Contribute more to Open Source projects
+- 🥅 2024 Goals: Contribute more to Open Source projects
 - ⚡ Fun fact: I love to watch anime and play games
 
 ### Spotify Playing 🎧
