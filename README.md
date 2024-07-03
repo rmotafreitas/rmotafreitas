@@ -5,7 +5,7 @@
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to collaborate with other content creators
 - 🥅 2024 Goals: Contribute more to Open Source projects
-- ⚡ Fun fact: I did a mobile app for: ![Animu Radio](https://animu.com.br)
+- ⚡ Fun fact: I did a mobile app for: [Animu Radio](https://animu.com.br)
 
 ### Spotify Playing 🎧
 
