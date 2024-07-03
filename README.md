@@ -12,7 +12,7 @@
 [![Spotify](https://novatorem-theta-green.vercel.app/api/spotify)](https://open.spotify.com/user/xiwv4n1yhmxitpz0arg4a95un)
 
 ### Connect with me:
-[![Linkedin](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/ricardo-mota-freitas-0b620124b/)&nbsp;&nbsp;[![Twitter](https://skillicons.dev/icons?i=twitter)](https://twitter.com/rmotafreitas)&nbsp;&nbsp;[![Discord](https://skillicons.dev/icons?i=discord)](https://discord.gg/EQUrP46utb)
+[![Linkedin](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/ricardo-freitas-0b620124b)&nbsp;&nbsp;[![Twitter](https://skillicons.dev/icons?i=twitter)](https://twitter.com/rmotafreitas)&nbsp;&nbsp;[![Discord](https://skillicons.dev/icons?i=discord)](https://discord.gg/EQUrP46utb)
 <br />
 
 ### Programming Languages and FrameWorks:
