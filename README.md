@@ -60,7 +60,7 @@ Eight hackathons, seven trophies. I keep saying I'm retired. I am not.
 | **FCUP '23** · Porto | [mental-health-bot](https://github.com/rmotafreitas/mental-health-bot) | 🥉 3rd | Node · JavaScript |
 | **Hanko Hackathon '23** · online | [docus.autos](https://github.com/rmotafreitas/docus.autos) | 🥈 runner-up (top 10) · YubiKey + merch | TypeScript · AI · Hanko |
 | **HackUPC '24** · Barcelona | [Nutri Mate](https://github.com/rmotafreitas/hackupc2324) | shipped & demoed | React Native · Node · MongoDB · OpenAI |
-| **BugsByte '26** · Braga | [bugsbyte2026](https://github.com/rmotafreitas/bugsbyte2026) | shipped & demoed | TypeScript · exchange APIs |
+| **HackUDC '25** · A Coruña | [TerapIA](https://github.com/pintous66/hack-udc) | shipped & demoed (team of 3) | Spring Boot · React · ChatGPT API |
 
 Most of those were solo, against full teams. I don't take photos at these things, so this table is all the proof you get.
 
