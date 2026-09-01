@@ -53,12 +53,12 @@ Eight hackathons, seven trophies. I keep saying I'm retired. I am not.
 
 | event | project | result | stack |
 |---|---|---|---|
-| **Sonae · Future Innovators '24** | [StudyCopilot](https://github.com/rmotafreitas/StudyCopilot) | 🥇 1st (solo, vs teams) | React · Fastify · Prisma · MySQL |
 | **FCUP Update 23/24** · Porto | [planner.ai](https://github.com/rmotafreitas/planner.ai) | 🥇 1st (solo, vs teams) | React · Vite · Hanko |
+| **Sonae · Future Innovators '24** | [StudyCopilot](https://github.com/rmotafreitas/StudyCopilot) | 🥈 2nd (solo, vs teams) | React · Fastify · Prisma · MySQL |
 | **BugsByte 23/24** · Braga | [Xeonex](https://github.com/rmotafreitas/trading-bot-xeonex) | 🥈 2nd overall + 🥇 1st thematic (team of 2) | React · Spring Boot · Java · OpenAI |
 | **Music Hackspace '26** · Lisbon | [Venue Brain](https://github.com/rmotafreitas/venue-brain) | 🥈 2nd — Algoriddim + TouchDesigner challenge (solo) | React · Bun/Elysia · MongoDB · OSC |
-| **FCUP '23** · Porto | [mental-health-bot](https://github.com/rmotafreitas/mental-health-bot) | 🥉 3rd | Node · JavaScript |
 | **Hanko Hackathon '23** · online | [docus.autos](https://github.com/rmotafreitas/docus.autos) | 🥈 runner-up (top 10) · YubiKey + merch | TypeScript · AI · Hanko |
+| **FCUP '23** · Porto | [mental-health-bot](https://github.com/rmotafreitas/mental-health-bot) | 🥉 3rd | Node · JavaScript |
 | **HackUPC '24** · Barcelona | [Nutri Mate](https://github.com/rmotafreitas/hackupc2324) | shipped & demoed | React Native · Node · MongoDB · OpenAI |
 | **HackUDC '25** · A Coruña | [TerapIA](https://github.com/pintous66/hack-udc) | shipped & demoed (team of 3) | Spring Boot · React · ChatGPT API |
 
@@ -117,6 +117,8 @@ Most of those were solo, against full teams. I don't take photos at these things
 [more on the channel](https://www.youtube.com/channel/UCwGmvFQAQLIFMfyDKKzafPw)
 
 ## side quests
+
+<img src="https://www.rmotafreitas.dev/kita1.gif" width="150" align="right" alt="kita" />
 
 - **Kaori Miyazono** — a [Discord bot](https://github.com/rmotafreitas/BotKaoriDiscord) (23★, discord.js) from before slash commands existed. Anime lookups, an economy, music, and a few games. It even spawned a Portuguese YouTube tutorial series about building it.
 - **Ness.js** — retired Super Smash Bros. player, Ness main. The alias stuck.
