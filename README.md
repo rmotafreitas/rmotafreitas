@@ -1,6 +1,6 @@
 ```text
 ness.js@github:~$ whoami
-ricardo freitas — 21 · engineer · doing a master's in software engineering
+ricardo freitas — 21 · engineer · MEI (SWE) @ isep, last year
 ness.js@github:~$ cat tagline.txt
 I drink coffee, write code, and I know things. That's what I do.
 ness.js@github:~$ ls
@@ -17,7 +17,7 @@ shipping since 2020 · gaia, portugal · fueled by caffeine
 
 <img src="https://www.rmotafreitas.dev/chihiro.gif" width="170" align="right" alt="chihiro" />
 
-- **21** · **Engineer** · currently doing a **Master's in Software Engineering**
+- **21** · **Engineer** · final year of **MEI — Informatics Engineering (Software Engineering)** at **ISEP**, Porto
 - Gaia, Portugal
 - started coding at **14** — that's ~7 years of TypeScript and slightly unreasonable project ideas
 - yes, that's an anime gif. this is a very serious developer profile.
@@ -49,7 +49,7 @@ I'm the sole maintainer. Since 2023 that means 166+ commits: a player rebuilt ar
 
 ## hackathons & other questionable decisions
 
-Eight hackathons, six trophies. I keep saying I'm retired. I am not.
+Eight hackathons, seven trophies. I keep saying I'm retired. I am not.
 
 | event | project | result | stack |
 |---|---|---|---|
@@ -58,7 +58,7 @@ Eight hackathons, six trophies. I keep saying I'm retired. I am not.
 | **BugsByte 23/24** · Braga | [Xeonex](https://github.com/rmotafreitas/trading-bot-xeonex) | 🥈 2nd overall + 🥇 1st thematic (team of 2) | React · Spring Boot · Java · OpenAI |
 | **Music Hackspace '26** · Lisbon | [Venue Brain](https://github.com/rmotafreitas/venue-brain) | 🥈 2nd — Algoriddim + TouchDesigner challenge (solo) | React · Bun/Elysia · MongoDB · OSC |
 | **FCUP '23** · Porto | [mental-health-bot](https://github.com/rmotafreitas/mental-health-bot) | 🥉 3rd | Node · JavaScript |
-| **Hanko Hackathon '23** · online | [docus.autos](https://github.com/rmotafreitas/docus.autos) | shipped & demoed | TypeScript · AI · Hanko |
+| **Hanko Hackathon '23** · online | [docus.autos](https://github.com/rmotafreitas/docus.autos) | 🥈 runner-up (top 10) · YubiKey + merch | TypeScript · AI · Hanko |
 | **HackUPC '24** · Barcelona | [Nutri Mate](https://github.com/rmotafreitas/hackupc2324) | shipped & demoed | React Native · Node · MongoDB · OpenAI |
 | **BugsByte '26** · Braga | [bugsbyte2026](https://github.com/rmotafreitas/bugsbyte2026) | shipped & demoed | TypeScript · exchange APIs |
 
