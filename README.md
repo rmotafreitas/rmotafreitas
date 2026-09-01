@@ -53,7 +53,7 @@ Seven for eight. I'll take those odds.
 | event | project | result | stack |
 |---|---|---|---|
 | **FCUP Update 23/24** · Porto | [planner.ai](https://github.com/rmotafreitas/planner.ai) | 🥇 1st (solo, vs teams) | React · Vite · Hanko |
-| **Sonae · Future Innovators '24** | [StudyCopilot](https://github.com/rmotafreitas/StudyCopilot) | 🥈 2nd (solo, vs teams) | React · Fastify · Prisma · MySQL |
+| **Sonae · Future Innovators '24** | [StudyCopilot](https://github.com/rmotafreitas/StudyCopilot) | 🥇 1st (solo, vs teams) | React · Fastify · Prisma · MySQL |
 | **BugsByte 23/24** · Braga | [Xeonex](https://github.com/rmotafreitas/trading-bot-xeonex) | 🥈 2nd overall + 🥇 1st thematic (team of 2) | React · Spring Boot · Java · OpenAI |
 | **Music Hackspace '26** · Lisbon | [Venue Brain](https://github.com/rmotafreitas/venue-brain) | 🥈 2nd — Algoriddim + TouchDesigner challenge (solo) | React · Bun/Elysia · MongoDB · OSC |
 | **Hanko Hackathon '23** · online | [docus.autos](https://github.com/rmotafreitas/docus.autos) | 🥈 runner-up (top 10) · YubiKey + merch | TypeScript · AI · Hanko |
