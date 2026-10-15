@@ -1,103 +1,102 @@
 ```text
 ness.js@github:~$ whoami
-ricardo freitas — 21 · engineer · MEI (SWE) @ isep, last year
+ricardo freitas — software engineer · MSc SWE @ ISEP, final year · porto, portugal
 ness.js@github:~$ cat tagline.txt
 I drink coffee, write code, and I know things. That's what I do.
-ness.js@github:~$ ls
-about  animu  trophies  side-quests  tech-stack
+ness.js@github:~$ cat ~/now
+building    RNAP — native audio engine for React Native (swift + kotlin + jsi)
+shipping    Rádio Animu's official app — 1,000+ installs, 4.9★, runs on RNAP
+finishing   MSc in Software Engineering @ ISEP — jul 2027
 ness.js@github:~$ uptime
-shipping since 2020 · gaia, portugal · fueled by caffeine
+shipping since 2020 · 8 hackathons, 6 awards · fueled by caffeine
 ```
 
-[website](https://rmotafreitas.dev) · [x / twitter](https://x.com/rmotafreitas) · [github](https://github.com/rmotafreitas)
+[website](https://rmotafreitas.dev) · [x / twitter](https://x.com/rmotafreitas) · [github](https://github.com/rmotafreitas) · [linkedin](https://www.linkedin.com/in/ricardo-freitas-0b620124b/)
 
 ---
 
-## about
+## now building — RNAP
 
-<img src="https://www.rmotafreitas.dev/chihiro.gif" width="170" align="right" alt="chihiro" />
+<img src="https://raw.githubusercontent.com/rmotafreitas/react-native-anything-player/main/docs/assets/brand/mascot-480.webp" width="170" align="right" alt="RNAP's mascot, a fox girl in orange headphones" />
 
-- **21** · **Engineer** · final year of **MEI — Informatics Engineering (Software Engineering)** at **ISEP**, Porto
-- Gaia, Portugal
-- started coding at **14** — that's ~7 years of TypeScript and slightly unreasonable project ideas
+> **[React Native Anything Player](https://github.com/rmotafreitas/react-native-anything-player)**: a native-first audio player for React Native. Files, streams and internet radio that keep playing correctly through network loss, phone calls, app switches and a frozen JavaScript thread.
 
-## the one I actually maintain — animu
+When React Native Track Player went commercial (v5 needs a paid licence, even for a free app from a non-profit radio), I wrote my own player instead. The whole player lives in native code: state machine, recovery, audio focus, interruptions, media session and clocks. JavaScript only sends commands and mirrors native state, so playback never depends on it.
 
-> **RadioAnimu/animu-mobile-app** — the official app for [Rádio Animu](https://www.animu.moe), "the most moe radio in Brazil": a community-run, non-profit anime radio from Santa Cruz do Capibaribe, Brazil, on air since **2018**.
+```ts
+const player = new Player();
+await player.load('https://radio.example.com/stream');
+await player.play(); // reconnects, survives wifi ↔ cellular, ICY metadata on the lock screen
+```
 
-Animu plays anime openings, vocaloid, J-Pop and game soundtracks 24/7, with listeners requesting songs from all over. I'm on the dev team, but the radio, the website and the API are the rest of the crew's territory. My piece is the app, which:
+What it handles:
 
-- streams the radio live, bitrate picker included
-- shows what's on air and how many people are listening
-- lets you request songs through **Discord OAuth**
-- is fully localized — **PT / EN / JP / ES**
+- **playback runs in Swift/Kotlin engines** that keep going and recover while React Native has the JS runtime suspended in the background
+- **one connection per stream.** An iOS HTTP proxy stops duplicate downloads and releases abandoned sockets, checked against a connection-counting test server
+- **recovery.** Stall and silent-stall detection, dead-socket re-open, jittered backoff, offline-aware probing, and circuit breakers so it can't cause a connection storm
+- **no race conditions.** Per-open generations reject stale native events, commands apply in call order, and status snapshots are sequence-numbered
+- **TurboModule with zero JS dependencies.** Progress is a synchronous JSI read (~10 µs), so a progress bar doesn't need events
+- **decoded-audio access for visualisers**, including live HTTP streams on iOS, where AVPlayer's audio tap never runs
+- works with Expo (config plugin) and bare RN, and has a [docs site](https://react-native-anything-player.vercel.app) with benchmarks, a recovery policy and soak test results
 
-It's live, which is more than I can say for half of this profile:
-
-- [Android app on the Play Store](https://play.google.com/store/apps/details?id=com.nessjs.animu) — **1,000+ downloads**, **4.9★**
-- [animu.moe](https://www.animu.moe)
-- [source — RadioAnimu/animu-mobile-app](https://github.com/RadioAnimu/animu-mobile-app)
-
-![React Native](https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Discord](https://img.shields.io/badge/Discord%20OAuth-5865F2?style=flat-square&logo=discord&logoColor=white)
+![React Native](https://img.shields.io/badge/TurboModules%20%2F%20JSI-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
 
-I'm the sole maintainer. Since 2023 that means 166+ commits: a player rebuilt around a live socket stream with external state stores, patches on top of `react-native-track-player`, and a full OAuth rework shipped in 2026. It's still getting pushed to.
+## in production — Rádio Animu
 
-## hackathons & other questionable decisions
+> **[RadioAnimu/animu-mobile-app](https://github.com/RadioAnimu/animu-mobile-app)**: the official Android/iOS app for [Rádio Animu](https://www.animu.moe), "the most moe radio in Brazil". It's a community-run, non-profit radio that has played anime openings, vocaloid, J-Pop and game OSTs 24/7 since 2018.
 
-Seven for eight. I'll take those odds.
+I own the app's development and releases, with 530+ commits since 2023. RNAP is what it plays on.
+
+- **audio and metadata stay in sync.** It compensates for stream buffering and device clock drift, so the song info and lock-screen progress match what listeners actually hear, in the background too
+- **a shared identity backend** for social sign-in (Discord / Google / Apple), passwordless email and account linking
+- **[animu-api](https://github.com/RadioAnimu/animu-api)**, a typed, zero-dependency TypeScript SDK for auth and radio integration that I extracted from the app
+- **CI with GitHub Actions + Jenkins** checks code quality, security and device compatibility before each build ships
+- localised in **PT / EN / JP / ES**, and distributed on iOS through AltStore
+
+[Play Store — 1,000+ downloads, 4.9★](https://play.google.com/store/apps/details?id=com.nessjs.animu) · [animu.moe](https://www.animu.moe) · [source](https://github.com/RadioAnimu/animu-mobile-app)
+
+## experience
+
+**Research Intern, Software Engineering** · [GECAD](https://www.gecad.isep.ipp.pt), ISEP · *feb – jun 2025*
+Built the Medicinal Garden Platform (web + mobile): AI plant identification, garden management, plant trades and messaging. It's split into .NET, Python and TypeScript microservices with shared Keycloak auth, Docker and centralised logging. I made Gemini's image identification output reliable by validating and normalising it into structured results, and built account deletion that removes a user's data from MySQL, MongoDB and uploaded files.
+
+**Intern, E-Learning & E-Commerce** · RFA.pt · *jul 2021 – feb 2022*
+PrestaShop storefront features and Articulate Storyline training modules. This was my first time writing code for someone else's users.
+
+## hackathons
+
+8 hackathons and 6 awards. Three of the wins were solo, against teams.
 
 | event | project | result | stack |
 |---|---|---|---|
-| **FCUP Update 23/24** · Porto | [planner.ai](https://github.com/rmotafreitas/planner.ai) | 🥇 1st (solo, vs teams) | React · Vite · Hanko |
-| **Sonae · Future Innovators '24** | [StudyCopilot](https://github.com/rmotafreitas/StudyCopilot) | 🥈 2nd (solo, vs teams) | React · Fastify · Prisma · MySQL |
-| **BugsByte 23/24** · Braga | [Xeonex](https://github.com/rmotafreitas/trading-bot-xeonex) | 🥈 2nd overall + 🥇 1st thematic (team of 2) | React · Spring Boot · Java · OpenAI |
-| **Music Hackspace '26** · Lisbon | [Venue Brain](https://github.com/rmotafreitas/venue-brain) | 🥈 2nd — Algoriddim + TouchDesigner challenge (solo) | React · Bun/Elysia · MongoDB · OSC |
-| **Hanko Hackathon '23** · online | [docus.autos](https://github.com/rmotafreitas/docus.autos) | 🥈 runner-up (top 10) · YubiKey + merch | TypeScript · AI · Hanko |
+| **FCUP Update 23/24** · Porto | [planner.ai](https://github.com/rmotafreitas/planner.ai) | 🥇 1st (solo, vs teams) | React · Fastify · OpenAI |
+| **Music Hackspace '26** · Lisbon | [Venue Brain](https://github.com/rmotafreitas/venue-brain) | 🥈 2nd, Algoriddim + TouchDesigner challenge (solo). Showcased at **Abbey Road Studios** during SXSW London | React · Bun/Elysia · MongoDB · WebSockets · OSC |
+| **Sonae · Future Innovators '24** | [StudyCopilot](https://github.com/rmotafreitas/StudyCopilot) | 🥈 2nd (solo, vs teams) | React · Fastify · Whisper · GPT-4o vision |
+| **BugsByte 23/24** · Braga | [Xeonex](https://github.com/rmotafreitas/trading-bot-xeonex) | 🥈 2nd overall + 🥇 1st thematic (team of 2) | React · Spring Boot · OpenAI |
+| **Hanko Hackathon '23** · online | [docus.autos](https://github.com/rmotafreitas/docus.autos) | 🏅 runner-up (top 10) | React · Fastify · OpenAI · ffmpeg.wasm |
 | **FCUP '23** · Porto | [mental-health-bot](https://github.com/rmotafreitas/mental-health-bot) | 🥉 3rd | Node · JavaScript |
 | **HackUPC '24** · Barcelona | [Nutri Mate](https://github.com/rmotafreitas/hackupc2324) | shipped & demoed | React Native · Node · MongoDB · OpenAI |
-| **HackUDC '25** · A Coruña | [TerapIA](https://github.com/pintous66/hack-udc) | shipped & demoed (team of 3) | Spring Boot · React · ChatGPT API |
+| **HackUDC '25** · A Coruña | [TerapIA](https://github.com/pintous66/hack-udc) | shipped & demoed (team of 3) | Spring Boot · React · OpenAI |
 
-## tech stack
+Also 🥈 2nd at the **Celfocus Cybersecurity CTF** (ISEP DEI HackDays '22).
 
-**languages** — TypeScript, JavaScript, Java, Go, Lua, C#, PHP
+## other things I've built
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+- **Hospital.ai** (ISEP, team of 4). A hospital platform across .NET and Node.js services, with a **Prolog planner + genetic algorithm** that schedules surgeries around rooms, staff and existing bookings, and a **Three.js** 3D hospital view for checking room occupancy
+- **[Badminton Buddy](https://github.com/rmotafreitas/badminton-app)**. Club match tracking with singles and doubles **Elo**, which gets recalculated correctly when someone edits or deletes a past result
+- **[dotfiles](https://github.com/rmotafreitas/dotfiles)**. Bash/Zsh/tmux/Git config with toolchain discovery and a tested, backup-first installer
 
-**frontend** — React, React Native, Expo, Vite, Tailwind CSS, shadcn/ui
+## stack
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![React Native](https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white)
+[![stack](https://skillicons.dev/icons?i=ts,swift,kotlin,cs,java,py,go,php,lua&theme=dark)](#stack)
+[![stack](https://skillicons.dev/icons?i=react,threejs,tailwind,vite,nodejs,bun,dotnet,spring&theme=dark)](#stack)
+[![stack](https://skillicons.dev/icons?i=mongodb,mysql,sqlite,docker,azure,githubactions,jenkins&theme=dark)](#stack)
 
-**backend & data** — Node.js, Fastify, Bun, Spring Boot, Prisma, MongoDB, MySQL
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
-**AI & auth** — OpenAI, Hanko, JWT, Discord OAuth
-
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Hanko](https://img.shields.io/badge/Hanko-00D4FF?style=flat-square&logo=hanko&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white)
+Also: React Native New Architecture (TurboModules / JSI), Expo, Prolog, Keycloak / OIDC, OAuth 2.0, WebSockets, SSE, OpenAI / Gemini APIs. I like domain-driven design and tests that would actually catch the bug.
 
 ## latest youtube uploads
 
@@ -115,12 +114,15 @@ Seven for eight. I'll take those odds.
 
 <img src="https://www.rmotafreitas.dev/kita1.gif" width="150" align="right" alt="kita" />
 
-- **Kaori Miyazono** — a [Discord bot](https://github.com/rmotafreitas/BotKaoriDiscord) (23★, discord.js) from before slash commands existed. Anime lookups, an economy, music, and a few games. It even spawned a Portuguese YouTube tutorial series about building it.
-- **Ness.js** — retired Super Smash Bros. player, Ness main. The alias stuck.
-- badminton, chess, and apparently DJing now. the x dot com habit is still a work in progress.
+- **NEI-ISEP**: I've co-organised events, workshops and hackathons for ISEP's informatics students since 2022
+- **Kaori Miyazono**: a [Discord bot](https://github.com/rmotafreitas/BotKaoriDiscord) (23★, discord.js) from before slash commands existed. It did anime lookups, an economy, music and games, and it spawned a Portuguese YouTube tutorial series
+- **Ness.js**: retired Super Smash Bros. player, Ness main. The alias stuck
+- badminton, chess, and DJing (which is how Venue Brain happened)
+
+<img src="https://www.rmotafreitas.dev/chihiro.gif" width="120" alt="chihiro" />
 
 ---
 
-[website](https://rmotafreitas.dev) · [x / twitter](https://x.com/rmotafreitas)
+[website](https://rmotafreitas.dev) · [x / twitter](https://x.com/rmotafreitas) · [linkedin](https://www.linkedin.com/in/ricardo-freitas-0b620124b/)
 
-© 2026–2027 Ricardo Freitas · Gaia, Portugal
+© 2026 Ricardo Freitas · Gaia, Portugal
